@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>CdeCMx Challenge</title>
-</head>
-<body>
-    <h1> CdeCMx Challenge</h1>
+<h1> CdeCMx Challenge</h1>
 <p>
 ==============================
 
