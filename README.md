@@ -1,4 +1,4 @@
-<h2> Exploring the Epidemiological Outbreak of COVID‐19 in Mexico and Geospatial Analysis of COVID-19 tweets: A Visual Exploratory Data Analysis </h2>
+<h2> Exploring the Epidemiological Outbreak of COVID‐19 in Mexico and Geospatial Analysis of COVID-19 Tweets </h2>
     
     
     
