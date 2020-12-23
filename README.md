@@ -6,10 +6,8 @@ A short description of the project.
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data
+    ├── data               <- (GeoCoV19: A Dataset of Hundreds of Millions of Multilingual COVID-19 Tweets with Location Information)[https://arxiv.org/pdf/2005.11177.pdf]
     │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
