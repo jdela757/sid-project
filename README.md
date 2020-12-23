@@ -1,8 +1,20 @@
 <h1> CdeCMx Challenge</h1>
-<p>
+<h2>Scientific solutions to emerging problems</h2>
+<h2> Environmental Effects and Public Health </h2>
+
+![cdecmx_challenge](https://user-images.githubusercontent.com/51844944/103034952-bce58200-452b-11eb-8b68-369ed2c6e5c2.png)
+
 ==============================
 
-A short description of the project.
+<p>
+    In this entry for the CdeCMX Challenge, which pursues different coding challenges in different areas of expertise, we developed ways of analyzing Covid-19 data through Tweets and cases per municipality in Mexico. The following are our visualizations and results.
+</p>
+
+
+
+
+<p>
+
 
 Project Organization
 ------------
@@ -60,5 +72,10 @@ Project Organization
 
 </body>
 </html>
+
+
+
+
+
 
 
