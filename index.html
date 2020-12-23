@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Covid-19 Weekly (Mexico Edition) 2020</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    </head>
+    <body id="page-top">
+        <header>
+            <h1 id="title"><i class="fas fa-virus"></i> Covid-19 Weekly (Mexico Edition) <i class="fas fa-virus"></i></h1>
+
+        </header>
+          
+          <nav>
+            <ul>
+              <li><a href="#section-1"> <span><i class="fas fa-circle"></i> <strong>Introduction</strong></span></a></li>
+              <li><a href="#section-2"><span><i class="fas fa-circle"></i> <strong>SARS-CoV-2 all over the world</strong></span></a></li>
+              <ul>
+                <li><a href="#s2_1"><i class="far fa-circle"></i> The world</a></li>
+                <li><a href="#s2_2"><i class="far fa-circle"></i> Mexico</a></li>
+              </ul>
+              <li><a href="#section-3"><span><i class="fas fa-circle"></i> <strong>SARS-CoV-2 and twitter</strong></span></a></li>
+            <ul>
+                <li><a href="#s3_1"><i class="far fa-circle"></i> Twitter geographical data</a></li>
+                <li><a href="#s3_2"><i class="far fa-circle"></i> Twitter sentiment Analysis</a></li>
+            </ul></li>
+            <li><a href="#section-4"><i class="fas fa-circle"></i> <strong>What about the future?</strong></span></a></li>
+              <li><a href="#section-5"><i class="fas fa-circle"></i> <strong>Resources</strong></span></a></li>
+              <li><a href="#section-6"><span><i class="fas fa-circle"></i> <strong>The team</strong></span></a></li>
+            </ul>
+          </nav>
+          
+          <main>
+            <section id="section-1">
+              <h2><i class="fas fa-virus"></i> Introduction</h2>
+              <p>Welcome to Covid-19 in Mexico. In this entry for the CdeCMX Challenge, which pursues different coding 
+                challenges in different areas of expertise, we developed ways of analyzing Covid-19 data through Tweets and cases per municipality in Mexico. 
+                The following are our visualizations and results.</p>
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/ya0QvbkHiJk?controls=0" class="center">
+                </iframe>
+                
+                <p class="center"><strong><a href="https://github.com/jdela757/sid-project">Here is a link to our github repository.</a></strong></p>
+            </section>
+            <section id="section-2">
+              <h2><i class="fas fa-virus"></i> SARS-CoV-2 all over the world</h2>
+              <p>As you may know in 2020 a pandemic started, this sadly has had effects all over the world. For this reason, a code was develop in order to show
+                 the growth rate of cases in Mexico and the world. 
+            </p>
+              <section id="s2_1">
+                <h3><i class="fas fa-viruses"></i> The world</h3>
+                <img src="img/globe_covid.gif"  id="covid3" class="center"/>
+              </section>
+              <section id="s2_2">
+                    <h3><i class="fas fa-viruses"></i> Mexico</h3>
+                    <p>
+                        <img src="img/covid_municipal_acumulated.gif"  id="covid1" class="center"/>
+                        <img src="img/cases_week.png"  id="heat1" class="center"/>
+                      <img src="img/cases_week_pro.png"  id="heat1" class="center"/>
+                  </p>
+              </section>
+              
+            </section>
+            <section id="section-3">
+              <h2><i class="fas fa-virus"></i> SARS-CoV-2 and twitter</h2>
+              <p>As we have seen in the last months, a significant part of this pandemic is the exchange of information. However, one question has remained: how many people have relayed information about the coronavirus, and what was the "sentiment" behind it?
+              </p>
+              <p>
+                Utilizing a dataset of around 1 million tweets from Mexico, we have developed several ways of analysing the data, such as from where in Mexico the tweets came from and what the feelings of people are based on the tweets sent.
+            </p>
+            <img src="img/4.png"  id="heat2" class="center"/>
+              <section id="s3_1">
+                  <h3><i class="fas fa-viruses"></i> Twitter geographical data</h3>
+                  <p>Utilizing the previously mentioned dataset, we made visualizations of the daily number of Covid-19 Tweets by state in Mexico. The graph shows that the north part of Mexico has a higher number of tweets
+                </p>
+                <img src="img/covid_tweets.gif"   id="covid2" class="center"/>
+                <img src="img/tweets_state.png"  id="heat3" class="center"/>
+                <img src="img/tweets_stat_pro.png"  id="heat2" class="center"/>
+                
+                </section>
+              <section id="s3_2">
+                  <h3>
+                    <i class="fas fa-viruses"></i> Twitter sentiment analysis
+                  </h3>
+                  <p>Using the same dataset as before, a sentiment analysis was implemented. In the next graphs, each point represents a tweet, the number of cases in that day, its sentiment score, and the times it was retweeted. In the sentiment score, a 1.0 score means the tweet had a maximum positive value, and a 0.0 score means the tweet had a minimum positive value. Most of the tweets have a "negative" sentiment, which is to be expected. Also, as the chart shows, when Covid-19 cases rise, the number of tweets related to it rises as well. We also see an increase in the quantity of tweets with a negative sentiment.
+                </p>
+              <div class="galeria">
+                <div class="row3">
+                    <div class="column3">
+                <img src="img/month1.png" width="260" height="300" alt="Galeria CSS 1" id="month1" class="center"/>
+                <img src="img/month2.png" width="260" height="300" alt="Galeria CSS 2"  id="month2" class="center"/>
+            </div>
+                <div class="row3">
+                    </div>
+                    <div class="column3">
+                        <img src="img/month3.png" width="260" height="300" alt="Galeria CSS 3" id="month3" class="center"/>
+                    
+                    <img src="img/month4.png" width="260" height="300" alt="Galeria CSS 4" id="month4" class="center"/>
+                </div>
+                </div>
+            </section>
+              </div>
+            </section>
+            <section id="section-4">
+                <h2><i class="fas fa-virus"></i> What about the future?</h2>
+                <p>Analysing data is not an easy task. Even though the methods keep improving every day, our interpretations and predictions will always be uncertain. For this reason, in the future, we would like to compare this data with the next months data, hoping it will be after the release of a vaccine in Mexico. This way we could see if it has a mitigating effect over the general sentiment of the population that tweeted during the high of the pandemic, and how the general situation of people changed.
+                </p>
+                <p><strong>Stay safe and keep your distance!</strong></p>
+                <p><strong>Until the next time.</strong></p>
+
+                
+            </section>
+            <section id="section-5">
+              <h2><i class="fas fa-virus"></i> Resources</h2>
+              <p>
+                  <i class="fas fa-file-alt"></i> Singh, Lisa & Bansal, Shweta & Bode, Leticia & Budak, Ceren & Chi, Guangqing & Kawintiranon, Kornraphop & 
+                  Padden, Colton & Vanarsdall, Rebecca & Vraga, Emily & Wang, Yanchen. (2020). A first look at COVID-19 information and misinformation 
+                  sharing on Twitter. 
+                </p>
+                <p>
+                  <i class="fas fa-file-alt"></i> <a href="https://github.com/aylliote/senti-py">Pre-trained sentiment Analysis classifier in spanish.</a>
+                </p>
+                <p>
+                <i class="fas fa-file-alt"></i> Rabindra Lamsal. (2020) Coronavirus (COVID-19) Geo-tagged tweets Dataset. IEEE Dataport. 
+                <a href="http://dx.doi.org/10.21227/fpsb-jz61">Link</a>
+            </p>
+            <p>
+                <i class="fas fa-file-alt"></i>  <a href="https://www.gob.mx/salud/documentos/datos-abiertos-152127">Datos abiertos - Dirección General de Epidemiologia</a>
+            </p>
+              
+            </section>
+            <section id="section-6">
+              <h2><i class="fas fa-virus"></i> The team</h2>
+              <div class="row">
+                 <div class="column">
+                    <figure class="team">
+                        <img src="img/ale.png">
+                        <figcaption><strong><p>Alejandro Miron Jabalera</p></strong>
+                            Bioengineering Major</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="team">
+                        <img src="img/vi.jpg">
+                        <figcaption><strong>Vianey Avila Pérez</strong>
+                        <p>Physics Major</p></figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="team">
+                        <img src="img/juan.JPG">
+                        <figcaption><strong>Juan de la Cruz</strong>
+                        <p>Double major in Mathematics and Chemistry</p></figcaption>
+                    </figure>
+                </div>
+            </div>
+            </section>
+          </main>
+          
+          <footer>
+            <div class="row2">
+                <div class="column2">
+                    <img src="img/LOGO_CLUBES.png" class="pie">
+            </div>
+            <div class="column2">
+                    <img src="img/p.png" class="pie">
+            </div>
+            
+           </div>
+           Copyright &copy; Covid-19 Weekly (Mexico Edition) 2020
+          </footer>
+    </body>
+</html>
