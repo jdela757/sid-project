@@ -1,4 +1,4 @@
-<h1> Exploring the Epidemiological Outbreak of COVID‐19 in Mexico and its relation with a Twitter Sentiment Analysis: A Visual Exploratory Data Analysis </h1>
+<h2> Exploring the Epidemiological Outbreak of COVID‐19 in Mexico and its relation with a Twitter Sentiment Analysis: A Visual Exploratory Data Analysis </h2>
     
     
     
