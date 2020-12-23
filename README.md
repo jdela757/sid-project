@@ -1,8 +1,8 @@
-<h1> CdeCMx Challenge</h1>
+![cdecmx_challenge](https://user-images.githubusercontent.com/51844944/103034952-bce58200-452b-11eb-8b68-369ed2c6e5c2.png)
+
 <h2>Scientific solutions to emerging problems</h2>
 <h2> Environmental Effects and Public Health </h2>
 
-![cdecmx_challenge](https://user-images.githubusercontent.com/51844944/103034952-bce58200-452b-11eb-8b68-369ed2c6e5c2.png)
 
 ==============================
 
