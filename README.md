@@ -8,7 +8,6 @@
 <h2> Environmental Effects and Public Health </h2>
 
 
-==============================
 
 <p>
     In this entry for the CdeCMX Challenge, which pursues different coding challenges in different areas of expertise, we developed ways of analyzing Covid-19 data through Tweets and cases per municipality in Mexico. The following are our visualizations and results.
