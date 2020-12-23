@@ -1,4 +1,11 @@
-CdmxChallenge
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CdeCMx Challenge</title>
+</head>
+<body>
+    <h1> CdeCMx Challenge</h1>
+<p>
 ==============================
 
 A short description of the project.
@@ -7,7 +14,7 @@ Project Organization
 ------------
 
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data               <- (GeoCoV19: A Dataset of Hundreds of Millions of Multilingual COVID-19 Tweets with Location Information)[https://arxiv.org/pdf/2005.11177.pdf]
+    ├── data
     │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
@@ -51,5 +58,13 @@ Project Organization
 
 
 --------
+</p>
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+
+
+</body>
+</html>
+
+
